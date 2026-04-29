@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BenitesForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BenitesForm1.Designer.cs">
+      <DependentUpon>BenitesForm1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     <Compile Include="Prueba_Repositorio2.Designer.cs">
       <DependentUpon>Prueba_Repositorio2.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BenitesForm1.resx">
+      <DependentUpon>BenitesForm1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
